@@ -4,15 +4,19 @@
 
 header{
     text-align: center;
-  
+   
 }
+
+
+.photos{
+    margin-bottom: 15px;
+}
+
 .collage{
     width: 860px;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 10px;
     margin: 0 auto;
-    align-items: center;
     justify-content: space-around;
 }
 

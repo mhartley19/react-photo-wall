@@ -53,7 +53,7 @@ class App extends Component {
            */}
           {photos.map(photo => (
             <img
-              alt={"photo not shown"}
+              alt={photo.filename}
               key={photo.id}
               src={PHOTO_URL(photo.id)}
               className = "photos"
